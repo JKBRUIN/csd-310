@@ -1,3 +1,8 @@
+#CSD 310
+#Module 6 Assignment 6.2
+#Jeremiah Kellam
+#4/15/2023
+
 import mysql.connector
 
 from mysql.connector import errorcode
