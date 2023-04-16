@@ -1,0 +1,32 @@
+/*CSD 310
+*Module 2 Assignment 2.3
+*Jeremiah Kellam
+*03/25/23
+*/
+
+{
+ "user_name": "USER",
+ "birthdate": "01/01/1901",
+ "roles": [
+ {
+ "role_name": "role_1"
+ },
+ {
+ "role_name": "role_2"
+ },
+ {
+ "role_name": "role_3"
+ }
+ ],
+ "dependents": [
+ {
+ "dependent_name": "dependent_1"
+ },
+ {
+ "dependent_name": "dependent_2" 
+ },
+ {
+ "dependent_name": "dependent_3" 
+ }
+ ]
+} 
