@@ -77,7 +77,7 @@ try:
 
         # Query 3 show_films(cursor, "DISPLAYING FILMS AFTER UPDATE")
         cursor.execute("SELECT film_name, film_director, genre_name, studio_name FROM film JOIN genre ON film.genre_id = genre.genre_id JOIN studio ON film.studio_id = studio.studio_id")
-        print("\n-- DISPLAYING FILMS AFTER UPDATE - Changed Alien to Horror--")
+        print("\n-- DISPLAYING FILMS AFTER UPDATE - Changed Alien to Horror --")
         for film in cursor.fetchall():
             print(f"Film Name: {film[0]}")
             print(f"Director: {film[1]}")
